@@ -1,4 +1,5 @@
 ﻿using ChessDimensions.ViewModels;
+using DimensionBox.Uci;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,5 +29,9 @@ namespace ChessDimensions
             DataContext = viewModel = new MainWindowViewModel();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            viewModel.StartNewGame();
+        }
     }
 }

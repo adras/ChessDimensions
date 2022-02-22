@@ -14,5 +14,9 @@ namespace ChessDimensions.ViewModels
         {
             ChessPlayAreaViewModel = new ChessPlayAreaViewModel();
         }
+
+        internal void StartNewGame()
+        {
+        }
     }
 }

@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Black">
-        <controls:ChessPlayArea></controls:ChessPlayArea>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <controls:ChessPlayArea Grid.Column="1"></controls:ChessPlayArea>
+
+        <!-- Left panel-->
+        <StackPanel Grid.Column="0">
+            <Button Click="Button_Click">New Game</Button>
+        </StackPanel>
     </Grid>
 </Window>

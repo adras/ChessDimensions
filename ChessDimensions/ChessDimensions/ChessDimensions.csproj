@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DimensionBox\DimensionBox.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="images\pieces\bdt45.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
