@@ -1,0 +1,1 @@
+Source: uci.zip from https://www.shredderchess.com/de/download.html
